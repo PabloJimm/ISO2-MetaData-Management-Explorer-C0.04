@@ -90,7 +90,6 @@
   </build>
   <modules>
   	<module>GF2</module>
-  	<module>GF3</module>
   	<module>GF1</module>
   </modules>
 </project>
