@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>C04_Cliente</artifactId>
+    <groupId>ISO2C04</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
   <groupId>ISO2C04</groupId>
-  <artifactId>C04_Cliente</artifactId>
+  <artifactId>GF3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
-  <name>C04_Cliente</name>
+
+  <name>GF3</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-	
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
@@ -88,9 +93,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <modules>
-  	<module>GF2</module>
-  	<module>GF3</module>
-  	<module>GF1</module>
-  </modules>
 </project>
